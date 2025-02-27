@@ -1,0 +1,65 @@
+{
+  "backgroundColor": "#FFFFFF",
+  "borderColor": "#E0DEDE",
+  "borderRadius": "1.5rem",
+  "borderWidth": "1",
+  "bottomRow": 30,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "defaultModel": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "theme"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onResetClick"
+    }
+  ],
+  "events": [
+    "onResetClick"
+  ],
+  "isCanvas": false,
+  "isLoading": false,
+  "isSearchWildcard": true,
+  "isVisible": true,
+  "key": "ppb24e9hqn",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "mobileBottomRow": 30,
+  "mobileLeftColumn": 7,
+  "mobileRightColumn": 30,
+  "mobileTopRow": 0,
+  "needsErrorInfo": false,
+  "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+  "originalBottomRow": 30,
+  "originalTopRow": 26,
+  "parentColumnSpace": 3.8916015625,
+  "parentId": "6x54tsqjwj",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 34,
+  "shouldScrollContents": true,
+  "srcDoc": {
+    "css": ".app {\n  border-radius: 0px;\n  border: none;\n  cursor: pointer;\n  padding: 3px 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\";\n  font-size: 14px;\n  color: rgba(0, 0, 0, 0.88);\n  line-height: 1.5714285714;\n}\n\nhtml {\n  overflow: hidden !important;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm';\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm';\nfunction App() {\n  return /*#__PURE__*/React.createElement(\"div\", {\n    className: \"app\"\n  }, /*#__PURE__*/React.createElement(\"p\", null, \"Past Client Tickets\"));\n}\nappsmith.onReady(() => {\n  /*\n   * This handler function will get called when parent application is ready.\n   * Initialize your component here\n   * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n   */\n  reactDom.render( /*#__PURE__*/React.createElement(App, null), document.getElementById(\"root\"));\n});"
+  },
+  "theme": "{{appsmith.theme}}",
+  "topRow": 26,
+  "type": "CUSTOM_WIDGET",
+  "uncompiledSrcDoc": {
+    "css": ".app {\n  border-radius: 0px;\n  border: none;\n\tcursor: pointer;\n\tpadding: 3px 0;\n\tfont-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';\n\tfont-size: 14px;\n\tcolor: rgba(0, 0, 0, 0.88);\n\t    line-height: 1.5714285714285714;\n}\n\nhtml {\n\toverflow:hidden !important;\n\tdisplay: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100%;\n}",
+    "html": "<!-- no need to write html, head, body tags, it is handled by the widget -->\n<div id=\"root\"></div>\n",
+    "js": "import React from 'https://cdn.jsdelivr.net/npm/react@18.2.0/+esm'\nimport reactDom from 'https://cdn.jsdelivr.net/npm/react-dom@18.2.0/+esm'\n\nfunction App() {\n\treturn (\n\t\t<div className=\"app\">\n\t\t\t<p>Past Client Tickets</p>\n\t\t</div>\n\t);\n}\n\nappsmith.onReady(() => {\n\t/*\n\t * This handler function will get called when parent application is ready.\n\t * Initialize your component here\n\t * more info - https://docs.appsmith.com/reference/widgets/custom#onready\n\t */\n\treactDom.render(<App />, document.getElementById(\"root\"));\n});"
+  },
+  "version": 1,
+  "widgetId": "3d0zk7hq4q",
+  "widgetName": "cus_sugg_4"
+}

@@ -1,0 +1,10 @@
+{
+  "accessor": [
+    "react_markdown"
+  ],
+  "defs": "{\"!name\":\"LIB/react_markdown\",\"react_markdown\":{\"defaultUrlTransform\":{\"!type\":\"fn()\",\"prototype\":{}},\"prototype\":{}}}",
+  "name": "react_markdown",
+  "uidString": "react_markdown_https://cdn.jsdelivr.net/npm/react-markdown@9.0.1/+esm",
+  "url": "https://cdn.jsdelivr.net/npm/react-markdown@9.0.1/+esm",
+  "version": "9.0.1"
+}

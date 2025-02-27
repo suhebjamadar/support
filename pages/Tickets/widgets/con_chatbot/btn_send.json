@@ -1,0 +1,39 @@
+{
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 69,
+  "boxShadow": "none",
+  "buttonColor": "#5c5a5c",
+  "buttonVariant": "TERTIARY",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "iconName": "send-message",
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vw7yvjboh6",
+  "leftColumn": 56,
+  "minWidth": 50,
+  "mobileBottomRow": 68,
+  "mobileLeftColumn": 57,
+  "mobileRightColumn": 61,
+  "mobileTopRow": 64,
+  "needsErrorInfo": false,
+  "originalBottomRow": 69,
+  "originalTopRow": 65,
+  "parentColumnSpace": 3.8916015625,
+  "parentId": "6x54tsqjwj",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "topRow": 65,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "tmf2n6o4dp",
+  "widgetName": "btn_send"
+}

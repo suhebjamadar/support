@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "67bc4592e280d468854cec08_afac2d59-d97f-48f3-a5c7-440e4d062a03",
+  "id": "Tickets_ticket",
+  "unpublishedCollection": {
+    "name": "ticket",
+    "pageId": "Tickets",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

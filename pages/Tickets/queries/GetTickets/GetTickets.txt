@@ -1,0 +1,2 @@
+SELECT TicketId, TicketNumber, RaisedBy, CreatedDate, CategoryId, Category, PriorityLevelId, PriorityLevel, AssigneeId, Assignee, ShortDescription, AISuggestedActions, IssueSummary, InternalNotes, SLADueDate
+FROM ticket.tblTickets

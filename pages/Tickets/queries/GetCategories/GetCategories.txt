@@ -1,0 +1,1 @@
+SELECT Id, Category FROM ticket.tblCategory
